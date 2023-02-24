@@ -5,7 +5,7 @@ import data from "../db/image";
 import "./css/Project.css";
 
 const Project = () => {
-  const [datas, setDatas] = useState(data);
+  const [datas] = useState(data);
   const [currItem, setCurrItem] = useState(datas[0]);
 
   const onView = (id) => {

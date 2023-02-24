@@ -1,9 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 
-const ProjectList = ({ datas, currItem, onView }) => {
-  const { image, title, site } = currItem;
-
+const ProjectList = ({ datas, onView }) => {
   return (
     <div className="project_wrap">
       <div className="project_inner">

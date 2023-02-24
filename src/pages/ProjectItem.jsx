@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectItem = ({ item, onView }) => {
   const { image, title, id } = item;
 
   return (
-    <a onClick={() => onView(id)}>
+    <Link onClick={() => onView(id)}>
       <img src={image} alt={title} />
-    </a>
+    </Link>
   );
 };
 

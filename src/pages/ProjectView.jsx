@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 
 const ProjectView = ({ currItem }) => {
   const { title, desc, logo, site } = currItem;
