@@ -1,0 +1,87 @@
+.contact_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  box-sizing: border-box;
+  .me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    & > div {
+      width: 50%;
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+  .contactMe {
+    background-color: beige;
+    width: 100%;
+    text-align: center;
+  }
+  .email_wrap {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    form {
+      display: flex;
+      flex-direction: column;
+      margin: 50px;
+
+      .emailsend_wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        & > * {
+        }
+      }
+      .email_message {
+        margin: 30px 0 0 0;
+        width: 500px;
+        height: 150px;
+        resize: none;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid;
+        font-family: "ONE-Mobile-POP";
+        &::-webkit-input-placeholder {
+          font-family: "ONE-Mobile-POP";
+        }
+        &::-moz-placeholder {
+          font-family: "ONE-Mobile-POP";
+        }
+        &:-ms-input-placeholder {
+          font-family: "ONE-Mobile-POP";
+        }
+        &::-ms-input-placeholder {
+          font-family: "ONE-Mobile-POP";
+        }
+        &::placeholder {
+          font-family: "ONE-Mobile-POP";
+        }
+      }
+      input {
+        margin: 20px 0;
+        border: none;
+        border-bottom: 1px solid;
+        padding: 10px 0;
+        outline: none;
+        font-family: "ONE-Mobile-POP";
+      }
+      .email_send {
+        width: 100px;
+        padding: 10px 20px;
+        background-color: royalblue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin: 20px 0;
+      }
+    }
+  }
+}

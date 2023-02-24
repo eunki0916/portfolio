@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "ONE-Mobile-POP";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 1100px;
+  font-family: "ONE-Mobile-POP";
+}
+
+.home_wrap {
+  .top {
+    background-color: #ccc;
+    height: 50px;
+    min-width: 1000px;
+    .title {
+      width: 200px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 5px;
+      background-color: #777;
+      font-size: 20px;
+      padding: 0 10px;
+      transform: translate(10px, 10px);
+
+      .text {
+        padding-left: 10px;
+        flex: 1;
+        font-size: 16px;
+        line-height: 1.1;
+        cursor: default;
+      }
+    }
+    .menu {
+      background-color: #777;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .bot {
+    min-height: 1100px;
+    display: flex;
+    .left {
+      width: 15%;
+
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #ccc;
+    }
+    .right {
+      margin: 50px 0 0 50px;
+
+      width: 85%;
+      display: flex;
+      .home_buttons {
+        button {
+          margin: 20px;
+          padding: 10px;
+          background-color: royalblue;
+          border: none;
+          border-radius: 6px;
+          cursor: pointer;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+리액트 라우터 라이브러리 설치
+yarn add react-router-dom
+
+sass설치
+yarn add sass
+
+react icons 설치
+npm install react-icons --save
+
+emailjs 설치
+npm install @emailjs/browser --save

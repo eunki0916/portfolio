@@ -1,0 +1,19 @@
+.button_wrap {
+  .buttons {
+    a {
+      display: flex;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      margin: 20px;
+      &:hover {
+        background-color: skyblue;
+      }
+
+      & > div {
+        flex: 1;
+        padding-left: 10px;
+      }
+    }
+  }
+}
