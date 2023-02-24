@@ -28,7 +28,7 @@
   min-width: 650px;
   max-width: 800px;
 }
-.about_wrap .skills .skill_wrap a {
+.about_wrap .skills .skill_wrap .skill_box {
   margin: 20px;
   display: block;
   width: 150px;
@@ -36,8 +36,9 @@
   background-color: rgba(78, 28, 28, 0.1);
   border-radius: 20px;
   position: relative;
+  cursor: pointer;
 }
-.about_wrap .skills .skill_wrap a img {
+.about_wrap .skills .skill_wrap .skill_box img {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -45,7 +46,7 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-.about_wrap .skills .skill_wrap a .skill_about {
+.about_wrap .skills .skill_wrap .skill_box .skill_about {
   display: none;
   position: absolute;
   top: 200px;
@@ -55,10 +56,10 @@
   border-radius: 20px;
   z-index: 4;
 }
-.about_wrap .skills .skill_wrap a .skill_about > * {
+.about_wrap .skills .skill_wrap .skill_box .skill_about > * {
   margin-left: 20px;
 }
-.about_wrap .skills .skill_wrap a .skill_about::before {
+.about_wrap .skills .skill_wrap .skill_box .skill_about::before {
   content: "";
   display: block;
   position: absolute;
@@ -69,6 +70,6 @@
   background-color: #ccc;
   transform: rotate(45deg);
 }
-.about_wrap .skills .skill_wrap a:hover .skill_about {
+.about_wrap .skills .skill_wrap .skill_box:hover .skill_about {
   display: block;
 }/*# sourceMappingURL=About.css.map */

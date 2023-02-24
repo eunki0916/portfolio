@@ -24,7 +24,7 @@ const About = () => {
       <div className="skills">
         <h3>사용 기술과 경험</h3>
         <div className="skill_wrap">
-          <a href="">
+          <div className="skill_box">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
               alt=""
@@ -39,8 +39,8 @@ const About = () => {
                 <br />- 함수와 조건문을 사용할 수 있습니다.
               </p>
             </div>
-          </a>
-          <a href="">
+          </div>
+          <div className="skill_box">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/220px-HTML5_logo_and_wordmark.svg.png"
               alt=""
@@ -52,8 +52,8 @@ const About = () => {
                 <br />- 애니메이션 활용 가능합니다.
               </p>
             </div>
-          </a>
-          <a href="">
+          </div>
+          <div className="skill_box">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
               alt=""
@@ -68,9 +68,9 @@ const About = () => {
                 <br />- ES6 문법에 대해 꾸준히 공부하고 있습니다.
               </p>
             </div>
-          </a>
+          </div>
 
-          <a href="">
+          <div className="skill_box">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/200px-React-icon.svg.png"
               alt=""
@@ -94,7 +94,7 @@ const About = () => {
                 데이터를 바인딩한 경험이 있습니다.
               </p>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>

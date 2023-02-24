@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Home.css";
-import Contact from "./Contact";
+
 import About from "./About";
 const Home = () => {
   return (

@@ -2,9 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
-import About from "./pages/About";
+
 import Contact from "./pages/Contact";
-import { Link } from "react-router-dom";
+
 import { FcFolder } from "react-icons/fc";
 import { MdClose } from "react-icons/md";
 import Menubar from "./button/Menubar";

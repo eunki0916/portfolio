@@ -30,7 +30,7 @@
       width: 800px;
       min-width: 650px;
       max-width: 800px;
-      a {
+      .skill_box {
         margin: 20px;
         display: block;
         width: 150px;
@@ -38,6 +38,8 @@
         background-color: rgba(78, 28, 28, 0.1);
         border-radius: 20px;
         position: relative;
+        cursor: pointer;
+
         img {
           position: absolute;
           width: 100px;
@@ -71,7 +73,7 @@
           transform: rotate(45deg);
         }
       }
-      a:hover .skill_about {
+      .skill_box:hover .skill_about {
         display: block;
       }
     }
